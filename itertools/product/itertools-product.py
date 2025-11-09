@@ -1,4 +1,5 @@
-#
+# https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true
+
 # A = input().split()
 # B = input().split()
 #
@@ -21,3 +22,10 @@ if __name__ == "__main__":
 
     result = product(A, B)
     print(*result)
+
+    # numbers = [0, 1]
+    # print(*product(numbers, repeat=3))
+    # print(*product(numbers, numbers))
+    #
+    # tuples = (0, 1)
+    # print(*product(tuples, repeat=3))
