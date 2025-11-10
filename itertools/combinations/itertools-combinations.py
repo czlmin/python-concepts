@@ -8,7 +8,8 @@ s = ''.join(sorted(s))
 n = int(n)
 for i in range(1, n+1):
     result = combinations(s, i)
+    # print(*result)
     for c in result:
-        print(c)
+        # print(c)
         p = ''.join(c)
         print(p)
