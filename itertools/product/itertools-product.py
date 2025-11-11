@@ -17,8 +17,7 @@ from itertools import product
 if __name__ == "__main__":
     A = list(map(int, input().split()))
     B = list(map(int, input().split()))
-
-    print(A, B)
+    # print(A, B)
 
     result = product(A, B)
     print(*result)
