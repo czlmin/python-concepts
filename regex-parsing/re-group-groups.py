@@ -4,6 +4,7 @@ import re
 
 regex_pattern = r"([a-zA-Z0-9])\1+"
 pattern = re.search(regex_pattern, input())
+print(pattern)
 if pattern:
     print(pattern.group()[0])
 else:
