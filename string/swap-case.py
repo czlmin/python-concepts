@@ -1,4 +1,4 @@
-#
+# https://www.hackerrank.com/challenges/swap-case/problem?isFullScreen=true
 
 def swap_case(s):
     new_s = ""
