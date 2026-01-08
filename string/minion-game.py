@@ -1,5 +1,7 @@
 # https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true
 
+# explanation: each letter has n - i variations so its score is n - i (i is the index of the letter)
+
 def minion_game(string):
     n = len(string)
     kevin_count = 0
