@@ -5,6 +5,7 @@ s = input()
 
 tpls = []
 for key, group in groupby(s):
+    # print(key, list(group))
     tpl = (len(list(group)), int(key))
     tpls.append(str(tpl))
 

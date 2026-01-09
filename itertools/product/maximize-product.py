@@ -3,7 +3,7 @@
 from itertools import product
 
 n, M = map(int, input().split())
-lists = [list(map(int, input().split()))[1:] for _ in range(n)]
+lists = [list(map(int, input().split()))[1:] for _ in range(n)] # in the question, the first number is the metadata (the number of elements)
 
 # All combinations, one element from each list
 max_value = 0
