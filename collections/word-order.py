@@ -10,5 +10,7 @@ for i in range(n):
 feq = Counter(words)
 print(len(feq))
 s1 = [str(feq[word]) for word in feq.keys()]
-s2 = ' '.join(s1)
-print(s2)
+# s2 = ' '.join(s1)
+# print(s2)
+print(*s1)
+# print(*s1, ' ')
